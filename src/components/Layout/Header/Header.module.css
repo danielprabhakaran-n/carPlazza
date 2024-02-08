@@ -1,0 +1,26 @@
+.header {
+  height: 48px;
+  background-color: #eee;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.logo {
+  font-size: 30px;
+  color: #737173;
+}
+.navMenu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navMenu--item {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.navMenu--item:hover {
+  color: blue
+}

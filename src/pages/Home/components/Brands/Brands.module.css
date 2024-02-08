@@ -1,0 +1,33 @@
+.brandsCard {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+
+.brandItem {
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.imgContainer {
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.brandImg {
+  width: 100px;
+}
+
+.brandName {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  background: #f5f4f4;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
