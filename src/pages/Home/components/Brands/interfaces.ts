@@ -10,6 +10,7 @@ export interface Model {
   externalFitments: string;
   kms: string;
   photo: string;
+  brand?: string;
 } 
 
 export interface Brand {

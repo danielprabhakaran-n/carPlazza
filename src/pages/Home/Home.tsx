@@ -58,7 +58,7 @@ const Home: FC = () => {
       <Brands brands={brandsData.brands} onClickBrand={onBrandClickHandler} />
       <Modal
         visible={modalVisible}
-        title={"New"}
+        title={"Add New Model"}
         okBtnText={"SUBMIT"}
         cancelBtnText={"Cancel"}
         discription={

@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col.col-6 {
+  padding: 5px;
+  width: 50%;
+}
+.inputField {
+  width: 90%;
+  box-sizing: border-box;
+  padding: 10px;
+}

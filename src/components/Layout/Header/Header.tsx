@@ -4,7 +4,7 @@ import style from "./Header.module.css"
 const Header = () => {
   return (
     <header className={style["header"]}>
-      <div className={style["logo"]}>LOGO</div>
+      <div className={style["logo"]}><NavLink className={style["navMenu--item"]} to={"/"}>LOGO</NavLink></div>
       <nav className={style["navMenu"]}>
         <NavLink className={style["navMenu--item"]} to={"/"}>Home</NavLink>
         <NavLink className={style["navMenu--item"]} to={"/filter-brands"}>Products</NavLink>
